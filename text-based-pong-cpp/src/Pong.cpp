@@ -1,10 +1,12 @@
-#include "Pong.h"
-#include "Collisions.h"
-#include "Paddle.h"
-#include "Ball.h"
+#include <iostream>
 #include <array>
 #include <vector>
-#include <iostream>
+
+#include "Pong.h"
+
+#include "Paddle.h"
+#include "Ball.h"
+#include "Collisions.h"
 
 namespace Pong {
 	static const int RESOLUTION_X = 900;
